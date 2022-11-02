@@ -50,3 +50,4 @@ For each of the six machine learning models, the balanced accuracy score and the
   * The average recall is 92%.
 
 ## Summary
+While all six machine learning models resulted in a 99% precision score, only one machine learning model also had at least a 90% in the balanced accuracy score and average recall. This specific machine learning model is the EasyEnsembleClassifier, which supports multi-class resampling by sampling each class independently. Along with a high precision score, a high recall percentage is important because it helps measure how many people who were classified with low credit risk were correctly classified. A high accuracy score is important too because it will inform the percentage of low credit risk predictions that are correctly classified. Because EasyEnsembleClassifier has a high percentage for all three of these, I recommend this machine learning model to Jill to predict credit risk. 
